@@ -1,0 +1,2795 @@
+@import url('reset.css');
+@import url('normalize.css');
+@import url('common.css');
+
+/*nav*/
+header{
+    width: 100%;
+    height: 100%;
+    background: #34c987;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 27.6rem;
+}
+
+header .nav-bar ul{
+    display: flex;
+    list-style: none;
+    padding: 1rem 0;
+    margin: 0;
+}
+
+.nav-bar ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 24px;
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px 25px;
+    margin: 0 5px;
+}
+
+.hamburger{
+    display: none;
+    color: #fff;
+}
+
+
+
+/*nav end*/
+/*section 1*/
+.container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+}
+
+.container::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #34c987;
+    border-radius: 0 0 0 50em;
+    z-index: -11;
+}
+
+.main-title{
+    margin: 11.2rem 16rem 26.3rem 27.6rem;
+    color: #fff;
+    align-items: center;
+}
+
+.main-title h2{
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 140%;
+    margin: 0;
+    margin-bottom: 1.5rem;
+}
+
+.main-title span{
+    font-weight: 400;
+}
+
+.main-title p{
+    font-size: 2.4rem;
+    line-height: 150%;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 7rem;
+}
+
+.btn-a{
+    padding: 1.5rem 3.7rem;
+    border-radius: 3rem;
+    background-color: transparent;
+    font-size: 2.4rem;
+    border: 1px solid #fff;
+    color: #fff;  
+    transition: .4s;  
+}
+
+.btn-a:hover{
+    background-color: #fff;
+    color: #34c987;
+}
+
+.btn-b{
+    padding: 1.5rem 3.7rem;
+    border-radius: 3rem;
+    background-color: transparent;
+    font-size: 2.4rem;
+    border: 1px solid #fff;
+    color: #fff;  
+    transition: .4s;    
+}
+
+.btn-b:hover{
+    background-color: #fff;
+    color: #34c987;
+}
+
+.gap-36{
+    gap: 0 3.6rem;
+}
+
+.cars {
+    width: 40%;
+    position: absolute;
+    top: 9%;
+    left: 45%;
+}
+
+.o-flow{
+    overflow: hidden;
+}
+/*section 1 end*/
+/*section 2*/
+.sec2{
+    height: fit-content;
+}
+.title-form{
+    margin-top: 14.5rem;
+    margin-left: 27.6rem;
+ }
+
+.title-form .c-title{
+    color: #34c987;
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.title-form h2{
+    font-size: 5.2rem;
+    font-weight: 700;
+    color: #272727;
+    margin-top: 1.5rem;
+}
+
+.sec2-subtitle{
+    font-size: 2.4rem;
+    color: #747474;
+    margin-top: 1.5rem;
+}
+
+.sec2-content-form{
+    margin-right: 27.6rem;
+    gap: 2.4rem;
+    padding-left: 10rem;
+}
+
+.card-form1, .card-form2{
+    width: 50%;
+}
+
+.card-form1 .card,
+.card-form2 .card {
+    height: 31rem; 
+    /* 원하는 고정값으로 통일 (내용에 따라 조정 가능) */
+}
+
+.card-form1{
+    padding-top: 20.5rem;
+    padding-bottom: 14.5rem;
+}
+
+.card-form2{
+    padding-top: 14.5rem;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: #F8F8F8;
+    border-radius: 20px;
+    padding: 4rem;
+}
+
+.card1, .card3{
+    margin-bottom: 2.4rem;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    background-color: #34c987;
+    width: 7.5rem;
+    height: 7.5rem;
+}
+
+.card-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    width: 5.8rem;
+    height: 5.8rem;
+}
+
+.icon .card-icon i{
+    color: #fff;
+    font-size: 42px;
+}
+
+.card h5{
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #272727;
+    margin: 3rem 0
+   
+}
+
+.card p{
+    font-size: 1.6rem;
+    color: #747474;
+    margin: 0;
+    
+}
+
+.card p span{
+    background-color: #DEF6EC;
+}
+/*sec2 end*/
+/*sec3*/
+.sec3{
+    margin: 14.5rem 0;
+}
+.sec3-title{
+    text-align: center;
+    margin: 0 auto 5rem;
+
+}
+
+.sec3-title .c-title{
+    color: #34c987;
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.sec3-title h2{
+    font-size: 52px;
+    font-weight: 700;
+    margin-top: 15px;
+    color: #272727;
+}
+
+.sec3-content {
+    display: flex;
+    justify-content: center; /* 가로 중앙 정렬 */
+    gap: 24px; /* 요소 간 간격 추가 */
+    width: 80%; /* 콘텐츠 최대 너비 설정 */
+    margin: 0 auto;
+    flex-wrap: wrap; /* 반응형에서 줄바꿈 가능하도록 */
+    margin-bottom: 5rem;
+}
+
+.content-box {
+    width: 30%; /* 3개 배치될 수 있도록 조정 */
+    background-color: white;
+    border-radius: 15px;
+    padding: 5.4rem 3.7rem;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.content-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.content-title h5{
+    font-size: 24px;
+    font-weight: bold;
+    color: #272727;
+    margin: 0;
+}
+
+.content-title img {
+    width: 36px; /* 현대 로고 크기 조정 */
+}
+
+.content-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.content-foot p {
+    font-size: 16px;
+    color: #747474;
+    text-align: left;
+}
+
+.content-f-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-f-button h5 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #272727;
+    margin: 0;
+}
+
+.content-f-button a{
+    display: inline-block;
+    padding: 6px 15px;
+    background-color: #fff;
+    color: #34c987;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    transition: 0.3s ease;
+    border: 2px solid #34c987;
+    border-radius: 30px;
+}
+
+.content-f-button a:hover{
+    background-color: #34c987;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.btn-form a{
+    background: #fff;
+    color: #34c987;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 1rem 3.4rem;
+    border: 2px solid #34c987;
+    border-radius: 30px;
+    margin: 0 auto;
+    display: block;
+    /* 기본적으로 <a>는 inline이므로 block으로 변경 */
+    margin: 0 auto;
+    /* 좌우 여백을 auto로 설정해 중앙 정렬 */
+    width: fit-content; /* 필요할 경우 크기 조정 */
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.btn-form a:hover{
+    background-color: #34c987;
+    border: 2px solid #fff;
+    color: #fff;
+}
+/*sec4*/
+.sec4{
+    position: relative;
+    overflow: hidden;
+}
+
+.sec4-title-form{
+    width: 40%;
+    margin-top: 14.5rem;
+    margin-left: 27.6rem;
+}
+
+.sec4-title-form .c-green{
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #34c987;
+    margin: 0;
+    margin-bottom: 1.5rem;
+}
+
+.sec4-title-form h2{
+    font-size: 5.2rem;
+    color: #272727;
+    margin: 0 0 1.5rem;
+}
+
+.sec4-title-form p{
+    font-size: 2.4rem;
+    color: #272727;
+    margin: 0;
+}
+
+.qna-form{
+    display: flex;
+    width: 80%;
+    height: 40rem;
+    margin: 14.5rem 0;
+    overflow: hidden;
+}
+
+.qna{
+    width: 90%;    
+    color: #272727;
+    border: 1px solid #34c987;
+    border-radius: 1.5rem;
+    padding: 5.5rem 5rem;
+    transition: all 0.3s ease-in-out;
+    height: 100%;
+}
+
+.qna:hover {
+    background-color: #34c987;
+    color: white;
+    border-radius: 15px 15px 15px 60px;
+}
+
+.qna span{
+    font-size: 2.4rem;
+    color: #34c987;
+}
+
+.qna .m-t-20{
+    margin-top: 2rem;
+}
+
+.qna:hover .qna span{
+    color: #fff;
+}
+
+.qna h5{
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: -1.4px;
+}
+
+
+.qna .highlighter{
+    color: #34c987;
+}
+
+.qna:hover .highlighter{
+    color: #fff;
+}
+
+.qna-content{
+    font-size: 1.8rem;
+    margin: 6rem auto 0;
+    color: #34c987;
+}
+
+.qna:hover .qna-content {
+    color: #fff;
+}
+
+
+
+/*sec5*/
+.sec5-form{
+    position: relative;
+    width: 100%;
+    min-height: 580px;
+    padding: 14.5rem 0;
+    z-index: 999;
+}
+
+.sec5-form::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: #F8F8F8;
+    border-radius: 0 50rem 0 0;
+    z-index: -11;
+}
+.sec5-title{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.sec5-title>.c-title{
+    font-size: 2.4rem;
+    color: #34c987;
+    margin: 0;
+}
+
+.sec5-title h2{
+    font-size: 5.2rem;
+    font-weight: 700;
+    color: #272727;
+    margin: 0;
+    margin-top: 1.5rem;
+}
+
+.sec5-title p{
+    font-size: 2.4rem;
+    color: #272727;
+    margin: 0;
+    margin-top: 1.5rem;
+}
+
+.container-fluid{
+    width: 80%;
+    margin: auto;
+}
+
+.sec5-content{
+    background: #fff;
+    border: none;
+    border-radius: 2rem;
+    margin: 0 auto;
+    width: 80%;
+
+}
+
+.sec5-content1{
+    width: 45%;
+    margin: 10rem 9rem 10rem 9rem;
+    font-size: 2.4rem;
+    color: #272727;
+}
+
+.m-b-30{
+    margin-bottom: 3rem;
+}
+
+.m-b-10{
+    margin-bottom: 1rem;
+}
+
+.sec5-content2{
+    width: 90%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    margin: 5.1rem 5rem 5.1rem 0;
+    border-radius: 2rem;
+    aspect-ratio: 1.6 / 1; /*가로세로 비율*/
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #34c987 !important;
+}
+
+
+/*sec6*/
+.sec6 {
+    padding: 14.5rem 0;
+    background-color: #f8f8f8;
+}
+
+.sec6-form{
+    display: flex;
+}
+
+.sec6-title{
+    width: 50%;
+    margin-left : 27.6rem;
+    position: relative;
+    z-index: 999;
+}
+
+.sec6-c-title{
+    color: #34c987;
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.sec6-title h2{
+    font-size: 5.2rem;
+    font-weight: 700;
+    color: #272727;
+    margin: 0;
+    margin-top: 1.5rem;
+}
+
+.sec6-title .p-3 {
+    font-size: 2.4rem;
+    color: #272727;
+    margin: 0;
+    margin-top: 1.5rem;
+}
+
+.sec6-img img{
+    position: absolute;
+    left: 10%;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    top: 53%;
+}
+
+.sec6-content-form{
+    width: 50%;
+    background-color: #34c987;
+    border-radius: 3rem;
+    position: relative;
+    z-index: 999;
+    margin-right: 27.6rem;
+}
+
+.sec6-content{
+    color: #fff;
+    padding: 3.5rem 4.5rem;
+    font-size: 1.8rem;
+}
+
+.sec6-content .sec6-c-st1{
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.sec6-content .sec6-c-st2{
+    margin: 0;
+    margin-bottom: 4rem;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5rem;
+    gap: 1rem;
+    height: 6rem;
+}
+
+.input-group label {
+    flex-basis: 20%;
+    /* 또는 25% ~ 35% 정도로 조절 가능 */
+    flex-shrink: 0;
+    /*부모 요소의 공간이 부족해져도 크기를 줄이지 말라는 뜻*/
+    /* 줄어들지 않도록 고정 */
+}
+
+/* input은 남은 공간 전부 차지 */
+.input-group input {
+    flex-basis: 80%;
+    /*부모요소 너비의 80%를 사용하겠다는 의미*/
+    /* label과 합쳐서 100%가 되도록 */
+    flex-grow: 1;
+    /*남는 공간을 얼마나 차지할지를 결정*/
+    /*1은 "다른 flex 아이템들과 동등하게 공간을 나눠 갖겠다"는 뜻, 2이면 1:2로 나누겠다는 뜻*/
+    /* 공간 남으면 input이 더 늘어날 수 있도록 */
+    height: 90%;
+    padding: 1.2rem 1.6rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.6rem;
+    color: #333;
+}
+
+input {
+    width:100%;
+    border: none;
+  }
+
+input:focus {
+    background-color: #fff;
+    /* outline: none; */
+    outline: 1px solid #34c987;
+  }
+
+input::placeholder {
+    color: #747474;
+    font-size: 1.6rem;
+  }
+
+.checkbox-form{
+    padding-top: 1.5rem;
+}
+
+.checkbox-group{
+    display: flex;
+    align-items: center;
+    gap: 0 15px;
+}
+
+.check-box1{
+    margin-bottom: 1rem;
+}
+
+  .sec6-content button{
+    display: block;
+    margin: 4rem auto 0 auto;
+    background-color: #fff;
+    font-size: 2.4rem;
+    color: #34c987;
+    border-radius: 3rem;
+    border: 1px solid #34c987;
+    padding:11px 20px;
+}
+
+input[type="checkbox"] {
+    accent-color: #fff;
+    /* 체크됐을 때 배경색 */
+    width: 18px;
+    height: 18px;
+    border: 2px solid #fff;
+    /* 일부 브라우저에서 적용 안 될 수 있음 */
+    border-radius: 4px;
+  }
+/*sec6 end*/
+/*footer*/
+.footer{
+    margin: 5rem 27.6rem;
+}
+
+.footer-icon-form, .footer-icon-left{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-links{
+    justify-content: space-between;
+}
+
+.footer-links li{
+    list-style: none;
+    font-size: 2rem;
+    padding: 0 21px;
+}
+
+.footer-links li:nth-child(n+2){
+    border-left: 2px solid #747474;
+}
+
+.footer-links li a{
+   text-decoration: none;
+   color: #747474;
+}
+
+.navbar__icons{
+    list-style: none;
+    gap: 0 20px;
+}
+
+.navbar__icons li i{
+    font-size: 38px;
+    color: #272727;
+}
+
+.footer-info-color01{
+    font-size: 1.6rem;
+    list-style: none;
+    color: #747474;
+    padding: 0;
+}
+
+.footer-info-color02{
+    display: flex;
+    color: #B7B7B7;
+    margin-bottom: 1rem;
+}
+
+.footer-info-color02 li,
+.footer-info-copy{
+    padding: 0 21px;
+}
+
+.footer-info-color02 li:nth-child(n+2){
+    border-left: 2px solid #b7b7b7;
+}
+
+/*footer end*/
+
+/* 반응형 Layout 1280, 1024, 768, 540, 348 */
+@media(max-width:1280px){
+    img {
+        border-style: none;
+        width: 85%;
+    }
+
+    header {
+        width: 100%;
+        height: 75px;
+        background: #34c987;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 15rem;
+    }
+
+        .nav-bar ul li a {
+        font-size: 20px;
+        color: #fff;
+        transition: 0.2s ease-in-out;
+    }
+
+    /*sec1*/
+    
+
+    .container::after {
+        height: 100%;
+        border-radius: 0 0 0 34em;
+    }
+
+    .w-30{
+        width: 40%;
+    }
+
+    .w-70{
+        width: 60%;
+    }
+
+    .main-title {
+        padding: 10.5rem 0 13.5rem 13.5rem;
+        margin: 0;
+    }
+
+    .main-title h2 {
+        font-size: 3.8rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .main-title p {
+        font-size: 2.0rem;
+        margin: 0;
+        margin-bottom: 6.5rem;
+    }
+
+    .cars {
+        top: 6%;
+        left: 49%;
+        width: 41%;
+        margin-right: 13.5rem;
+    }
+    
+    .btn-a {
+        padding: 1.5rem 3.2rem;
+        font-size: 2.0rem;
+    }
+
+    .btn-b {
+        padding: 1.5rem 3.2rem;
+        font-size: 2.0rem;
+    }
+
+    /*sec1 end*/
+    /*sec2*/
+    .title-form {
+        margin-top: 13.5rem;
+        margin-left: 13.5rem;
+    }
+
+    .title-form .c-title {
+        font-size: 2rem;
+    }
+
+    .title-form h2 {
+        font-size: 3.8rem;
+    }
+
+    .sec2-subtitle {
+        font-size: 2rem;
+    }
+
+    .sec2-content-form {
+        margin-right: 13.5rem;
+        padding-left: 2rem;
+        gap: 2rem;
+    }
+
+    .card-form1 .card, .card-form2 .card {
+        height: 28rem;
+    }
+
+    .card {
+        padding: 2.5rem;
+    }
+
+    .card-form1 {
+        padding-top: 18.5rem;
+        padding-bottom: 13.5rem;
+    }
+
+    .card1, .card3 {
+        margin-bottom: 2rem;
+    }
+
+    .card h5 {
+        font-size: 2rem;  
+    }
+
+    .card-form2 {
+        padding-top: 13.5rem;
+    }
+
+    .icon {
+        width: 6.8rem;
+        height: 6.8rem;
+    }
+
+    .card-icon {
+        width: 4.8rem;
+        height: 4.8rem;
+    }
+
+    .icon .card-icon i {
+        font-size: 38px;
+    }
+    /*sec2 end*/
+    /*sec3*/
+    .sec3{
+        margin: 13.5rem 0;
+    }
+    .sec3-title {
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+    
+    .sec3-title .c-title {
+        font-size: 2.0rem;
+        margin: 0;
+    }
+    
+    .sec3-title h2 {
+        font-size: 38px;
+    }
+    
+    .sec3-content {
+        gap: 26px;
+    }
+    
+    .content-box {
+        width: 31%; /* 한 줄에 3개 배치 */
+        padding: 1.4rem 3.7rem;
+    }
+    
+    .content-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .content-title h5{
+        font-size: 2.0rem;
+        font-weight: bold;
+    }
+
+    .content-title img {
+        width: 36px; /* 아이콘 크기 */
+    }
+    
+    .content-img img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        margin-bottom: 40px;
+    }
+    
+    .content-foot p {
+        font-size: 16px;
+        color: #747474;
+        text-align: left;
+    }
+
+    .content-f-button h5 {
+        font-size: 20px;
+    }
+    
+    .btn-form {
+        display: flex;
+        justify-content: center;
+        /* 버튼을 가로 중앙 정렬 */
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+    }   
+
+    .btn-form a {
+        font-size: 20px;
+        padding: 1.2rem 2.5rem;
+        border-radius: 30px;
+    }
+    /*sec3 end*/
+    /*sec4*/
+    .sec4-form{
+        height: 620px;
+    }
+
+    .sec4-title-form .c-green {
+        font-size: 2rem;  
+    }
+
+    .sec4-title-form h2 {
+        font-size: 3.8rem;
+    }
+
+    .sec4-title-form p {
+        font-size: 2rem;
+    }
+
+    .sec4-title-form {
+        width: 35%;
+        margin: 13.5rem 0 0 13.5rem;
+    }
+
+    .qna-form {
+        height: 33rem;
+        width: 65%;
+        margin: 13.5rem 0;
+    }
+    
+    .qna{
+        padding: 4.5rem 3rem;
+        width: 90%;
+        height: 330px;
+    }
+
+    .qna .m-t-20 {
+        margin-top: 1.8rem;
+    }
+
+    .qna h5 {
+        font-size: 2rem;
+    }
+
+    .qna span {
+        font-size: 2rem;
+    }
+
+    .qna-content {
+        font-size: 1.5rem;
+        margin-top: 3.0rem;
+    }
+    /*sec4 end*/
+    /*sec5*/
+    .sec5-form {
+        padding: 135px 0;
+    }
+
+    .sec5-form::after {
+        border-radius: 0 40rem 0 0;
+    }
+
+    .sec5-title {
+        margin-bottom: 5rem;
+    }
+
+    .sec5-title>.c-title {
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    .sec5-title h2 {
+        font-size: 3.8rem;
+    }
+
+    .sec5-title p {
+        font-size: 2rem;
+    }
+
+    .sec5-content {
+        width: 75%;
+    }
+
+    .sec5-content1 {
+        width: 44%;
+        margin: 6rem 2rem 5rem 5rem;
+        font-size: 2rem;
+    }
+
+    .m-b-30 {
+        margin-bottom: 2.5rem;
+    }
+
+    .sec5-con1-circle {
+        display: flex;
+        gap: 10px;
+        margin-top: 6.5rem;
+    }
+    /*sec5 end*/
+    /*sec6*/
+    .sec6 {
+        padding: 13.5rem 0;    
+    }
+
+    .sec6-title {
+        margin-left: 13.5rem;
+        width: 40%;
+    }
+
+    .sec6-c-title {
+        font-size: 2rem;
+    }
+
+    .sec6-title h2 {
+        font-size: 3.8rem;
+        font-weight: 700;
+        color: #272727;
+    }
+
+    .sec6-title .p-3 {
+        font-size: 2rem;
+        color: #272727;
+    }
+
+    .sec6-content {
+        color: #fff;
+        font-size: 1.6rem;
+    }
+    
+    .sec6-content-form {
+        margin: 0 13.5rem 0 0;
+    }
+
+    .sec6-content .sec6-c-st1 {
+        font-size: 2rem;
+    }
+
+    .sec6-content .sec6-c-st2 {
+        margin: 0;
+        margin-bottom: 3rem;
+    }
+
+    .sec6-img img {
+        left: 15%;
+        top: 56%;
+    }
+
+    .sec6-content button {
+        margin: 2.5rem auto 0 auto;
+        font-size: 2rem;
+        padding: 8px 16px;
+    }
+    /*sec6 end*/
+    /*footer*/
+    .footer {
+        margin: 5rem 13.5rem;
+    }
+
+    .footer-icon-left img {
+        width: 16%;
+    }
+
+    .footer-links{
+        padding: 0;
+    }
+
+    .footer-links li {
+        font-size: 1.8rem;
+        padding: 0 16px;
+    }
+
+    .navbar__icons li i {
+        font-size: 38px;
+    }
+
+    .footer-info-color01 {
+        font-size: 14px;
+    }
+
+    /*footer end*/
+}
+
+@media(max-width:1024px){
+    /*nav*/
+    header {
+
+        height: 53px;
+    }
+
+    img {
+        width: 61%;
+    }
+
+    .nav-bar ul li a {
+        font-size: 14px;
+    }
+    /*nav end*/
+    /*sec1*/
+    .container::after {
+        height: 100%;
+        border-radius: 0 0 0 29em;
+    }
+
+
+    .main-title {
+        padding: 8.2rem 0 6.5rem 13.5rem;
+    }
+
+    .main-title h2 {
+        font-size: 2.6rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .main-title p {
+        font-size: 1.4rem;
+        margin-bottom: 4.5rem;
+    }
+
+    .btn-a{
+        padding: 1.3rem 2.2rem;
+        font-size: 1.4rem;
+    }
+
+    .btn-b{
+        padding: 1.3rem 2.2rem;
+        font-size: 1.4em;
+    }
+
+    .gap-36{
+        gap: 0 3.0rem !important;
+    }
+
+    .cars {
+        left: 45%;
+        margin: 0;
+        top: 1%;    
+        width: 39%;
+    }
+    /*sec1 end*/
+    /*sec2*/
+    .title-form .c-title {
+        font-size: 1.4rem;
+    }
+
+    .title-form h2 {
+        font-size: 2.6rem;
+    }
+
+    .sec2-subtitle {
+        font-size: 1.4rem;
+    }
+
+    .sec2-content-form {
+        margin-right: 13.5rem;
+        padding-left: 0;
+        gap: 1.3rem;
+    }
+
+    .title-form {
+        margin-top: 6.5rem;
+        margin-left: 13.5rem;
+    }
+
+    .card1, .card3 {
+        margin-bottom: 1.3rem;
+    }
+
+    .card-form1 .card, .card-form2 .card {
+        height: 20rem;
+    }
+
+    .card-form1 {
+        padding-top: 10.5rem;
+        padding-bottom: 6.5rem;
+    }
+
+    .card-form2 {
+        padding-top: 6.5rem;
+    }
+    
+    .card h5 {
+        font-size: 1.4rem;
+        margin: 1.8rem 0;
+    }
+
+    .card p {
+        font-size: 1.1rem;
+    }
+
+    .icon {
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+
+    .card-icon {
+        width: 3.5rem;
+        height: 3.5rem;
+        border: 2.5px solid #fff
+    }
+
+    .icon .card-icon i {
+        font-size: 22px;
+    }
+    /*sec2 end*/
+    /*sec3*/
+    .sec3 {
+        margin: 6.5rem 0;
+    }
+    .sec3-title {
+        margin-bottom: 3.5rem;
+    }
+
+    .sec3-title .c-title {
+        font-size: 1.4rem;
+        margin: 0;
+    }
+
+    .sec3-title h2 {
+        font-size: 26px;
+    }
+
+    .sec3-content {
+        gap: 21px;
+        margin-bottom: 3.5rem;
+    }
+    
+    .content-box {
+        width: 31%;
+        background-color: white;
+        border-radius: 15px;
+        padding: 2.4rem 2.7rem;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    .content-title {
+        margin-bottom: 26px;
+    }
+
+    .content-title h5 {
+        font-size: 1.4rem;
+    }
+
+    .content-title img {
+        width: 30px; /* 현대 로고 크기 조정 */
+    }
+
+    .content-f-button h5 {
+        font-size: 1.4rem;
+    }
+
+    .content-foot p {
+        font-size: 11px;
+        color: #747474;
+        text-align: left;
+    }
+
+    .content-f-button a{
+        font-size: 11px;
+        padding: 6px 12px;
+    }
+
+    .btn-form a {
+        font-size: 14px;
+        padding: 0.9rem 2rem;
+    }
+
+    /*sec4*/
+    .sec4-form {
+        height: 100%;
+    }
+
+    .sec4-title-form {
+        width: 42%;
+        margin: 6.5rem 0 0 13.5rem;
+    }
+
+    .sec4-title-form .c-green {
+        font-size: 1.4rem;
+    }
+
+    .sec4-title-form h2 {
+        font-size: 2.6rem;
+    }
+
+    .sec4-title-form p {
+        font-size: 1.4rem;
+    }
+
+    .qna-form {
+        height: 23rem;
+        width: 96%;
+        margin: 6.5rem 0 6.5rem 1.5rem;
+    }
+
+    .qna {
+        padding: 3.5rem 2rem;
+        width: 91%;
+        height: 100%;
+    }
+
+    .qna h5 {
+        font-size: 1.4rem;
+        letter-spacing: -0.5px;
+    }
+
+    .qna span {
+        font-size: 1.4rem;
+    }
+
+    .qna-content {
+        font-size: 1.2rem;
+        margin-top: 2.7rem;
+    }
+
+    /*sec5*/
+    .sec5-form {
+        padding: 65px 0;
+    }
+
+    .sec5-form::after {
+        border-radius: 0 33rem 0 0;
+    }
+
+    .sec5-title>.c-title {
+        font-size: 1.4rem;
+        margin: 0;
+    }
+    
+    .sec5-title {
+        margin-bottom: 4rem;
+    }
+
+    .sec5-title h2 {
+        font-size: 2.6rem;
+    }
+
+    .sec5-title p {
+        font-size: 1.4rem;
+    }
+
+    .sec5-con1-circle {
+        display: flex;
+        gap: 5px;
+        margin-top: 4rem;
+    }
+
+    .sec5-content1 {
+        width: 41%;
+        margin: 5rem 0rem 4rem 4rem;
+        font-size: 1.4rem;
+    }
+
+    .sec5-content2 {
+        margin: 3rem;
+        width: 85%;
+    }
+    
+    .m-b-30 {
+        margin-bottom: 2rem;
+    }
+    /*sec5 end*/
+    /*sec6*/
+    .sec6 {
+        padding: 6.5rem 0;
+    }
+
+    .sec6-title {
+        margin: 0 0 10rem 13.5rem;
+        width: 30%;
+    }
+    
+    .sec6-c-title {
+        font-size: 1.4rem;
+    }
+
+    .sec6-title h2 {
+        font-size: 2.6rem;
+    }
+
+    .sec6-title .p-3 {
+        font-size: 1.4rem;
+    }
+
+    .sec6-content-form {
+        width: 44%;
+    }
+
+    .sec6-content .sec6-c-st1 {
+        font-size: 1.4rem;
+    }
+
+    .sec6-content .sec6-c-st2 {
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+
+    .sec6-content {
+        font-size: 1.2rem;
+    }
+
+    .sec6-content button {
+        margin: 1.5rem auto 0 auto;
+        font-size: 1.4rem;
+        padding: 10px 16px;
+    }
+
+    .input-group{
+        height: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .input-group input {
+        padding: 1rem 1.4rem;
+        font-size: 1.2rem;
+    }
+
+    input::placeholder {
+        font-size: 12px;
+    }
+
+    .input-group label {
+        flex-basis: 17%;
+        flex-shrink: 0;
+    }
+
+    .sec6-img img {
+        left: 15%;
+        top: 77%;
+    }
+    /*sec6 end*/
+    /*footer*/
+    .footer-icon-left img {
+        margin: 0;
+        width: 17%;
+    }
+
+    .footer-icon-left .footer-links li a {
+        font-size: 1.4rem;
+    }   
+
+    .footer-info p {
+        font-size: 1.2rem;
+    }
+
+    .footer-icon-sns {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .footer-icon-form, .footer-icon-left {
+        align-items: center;
+        justify-content: inherit;
+    }
+
+    .navbar__icons li i {
+        font-size: 32px;
+    }
+
+    .footer-links li:nth-child(n+2) {
+        border-left: 1px solid #747474;
+    }
+
+    .footer-info-color02 li:nth-child(n+2) {
+        border-left: 1px solid #b7b7b7;
+    }
+
+    .navbar__icons{
+        padding-left: 200px;
+    }
+
+}
+
+
+@media(max-width:768px){
+    /*nav*/
+    img {
+        width: 100%;
+    }
+
+    header {
+        height: 100%;
+        background: #fff;
+        padding: 1rem 8rem;
+    }
+
+    .hamburger{
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger .line{
+        width: 30px;
+        height: 3px;
+        background: #34c987;
+        margin: 6px 0;
+    }
+
+    .nav-bar {
+        display: none;
+        position: fixed;
+        top: 100px;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        z-index: 99999;
+        text-align: center;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  }
+
+    .nav-bar.active {
+        display: block;
+    }
+
+    .nav-bar ul{
+        /* opacity: 0;  */
+        display: block;
+        list-style: none;
+        padding: 1rem 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-bar ul li {
+        margin: 0.5rem 0;
+      }
+    
+      .nav-bar ul li a {
+        font-size: 18px;
+        color: #34c987;
+        text-decoration: none;
+      }
+
+    /*sec1*/
+    .sec1{
+        margin-bottom: 10rem;
+    }
+    
+    .sec1 .d-flex{
+        flex-direction:column;
+    }
+
+    .container {
+        position: relative;
+        width: 100%;
+        height: 760px;
+        z-index: 999;
+    }
+
+    .container::after{
+        background-color: #FFF;
+    }
+
+    .w-30 {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .w-70{
+        width: 100%;
+        height: 100%;
+    }
+
+    .main-title{
+        margin: 0;
+        padding: 0;
+        color: #272727;
+        text-align: center;
+    }
+
+    .main-title h2 {
+        font-size: 4.0rem;
+        color: #34c987;
+    }
+
+    .main-title p {
+        font-size: 2.0rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .btn-a{
+        padding: 1.2rem 1.6rem;
+        background-color: #fff;
+        font-size: 2.0rem;
+        border: 1px solid #34c987;
+        color: #34c987;      
+    }
+
+    .btn-a:hover{
+        background-color: #34c987;
+        color: #fff;
+    }
+
+    .btn-b{
+        padding: 1.2rem 1.6rem;
+        background-color: #fff;
+        font-size: 2.0rem;
+        border: 1px solid #34c987;
+        color: #34c987;
+    }
+
+    .btn-b:hover{
+        background-color: #34c987;
+        color: #fff;
+    }
+
+    .cars {
+        position: relative;
+        left: 16%;
+        width: 75%;
+        top: 8%;
+        margin: 0;
+    }
+
+    .top-btn{
+        flex-direction: row !important;
+        align-items: center;
+        justify-content: center;
+    }
+    /*sec01 end*/
+    /*sec2*/
+    .sec2{
+        padding : 10rem 0;
+    }
+
+    .sec2-form{
+        flex-direction: column;
+    }
+
+    .title-form {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .title-form .c-title {
+        font-size: 2rem;
+    }
+
+    .title-form h2 {
+        font-size: 4rem;
+        margin: 0;
+        margin-top: 1.5rem;
+    }
+
+    .sec2-subtitle {
+        font-size: 2rem;
+        margin: 0;
+        margin-top: 1.5rem;
+    }
+
+    .sec2-content-form {
+        margin: 4rem auto;
+    }
+
+    .card {
+        padding: 2rem;
+        margin: 1.2rem 0
+    }
+
+    .card-form1 {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .card-form2 {
+        padding-top: 0;
+    }
+
+    .card h5 {
+        font-size: 1.8rem;
+    }
+
+    .icon {
+        width: 3.8rem;
+        height: 3.8rem;
+        border-radius: 1.5rem;
+    }
+
+    .card-icon{
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .card-form1 .card, .card-form2 .card {
+        height: 19rem;
+    }
+    /*sec02 end*/
+    /*sec3*/
+    .sec3 {
+        margin: 10rem 0;
+    }
+
+    .sec3-title {
+        margin-bottom: 4rem;
+    }
+
+    .sec3-title .c-title {
+        font-size: 2.0rem;
+    }
+
+    .sec3-title h2 {
+        font-size: 40px;
+    }
+
+    .sec3-content {
+        width: 65%;
+        margin-bottom: 4rem;
+        gap: 3.5rem;
+    }
+
+    .content-box {
+        width: 100%;
+        padding: 3rem 4rem;
+    }
+
+       .content-title {
+        margin-bottom: 0;
+    }
+
+    .content-title h5 {
+        font-size: 2.0rem;
+    }
+
+    .content-title img {
+        width: 40px;
+    }
+
+    .content-foot{
+        margin-top: 10px;
+    }
+    .content-img img {
+        width: 70%;
+        height: auto;
+        object-fit: cover;
+        margin-bottom: 40px;
+        margin: 0 auto;
+    }
+
+    .content-foot p {
+        font-size: 15px;
+    }
+
+    .content-f-button{
+        display: flex;
+        justify-content: space-between;
+        /* 버튼과 텍스트 간격 조절 */
+        align-items: center;
+    }
+
+    .content-f-button h5 {
+        font-size: 2.0rem;
+    }
+
+    .content-f-button a{
+        font-size: 1.5rem;
+        padding: 0.6rem 1.5rem;
+    }
+
+    .btn-form a {
+        font-size: 20px;
+        padding: 1rem 3rem;
+    }
+    /*sec3 end*/
+    /*sec4*/
+    .sec4 {
+        padding: 100px 0;
+        height: 100%;
+    }
+
+    .sec4-form{
+        flex-direction: column;
+        align-items: center; /* 가운데 정렬 */
+        gap: 2rem;
+    }
+
+    .sec4-title-form {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .sec4-title-form .c-green {
+        font-size: 2rem;
+    }
+
+    .sec4-title-form h2 {
+        font-size: 4rem;
+    }
+
+    .sec4-title-form p {
+        font-size: 2rem;
+    }
+
+    .qna-form{
+        position: inherit;
+        height: auto;
+        width: 100%;
+        margin: 4rem 0;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        overflow: visible;
+        gap: 3rem;
+    }
+
+    .qna {
+        width: 88%;
+        padding: 4rem 3rem;
+        height: 270px;
+    }
+
+    .qna span {
+        font-size: 2rem;
+    }
+
+    .qna h5 {
+        font-size: 2rem;
+    }
+    
+    .qna-content {
+        font-size: 1.1rem;
+    }
+    /*sec4 end*/
+    /*sec5*/
+    .sec5-form{
+        padding: 100px 0;
+    }
+
+    .sec5-form::after {
+        border-radius: 0 25rem 0 0;
+    }
+    
+    .sec5-title>.c-title {
+        font-size: 2rem;
+    }
+
+    .sec5-title h2 {
+        font-size: 4rem;
+    }
+   
+    .sec5-title p {
+        font-size: 2rem;
+    }
+
+    .sec5-content {
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 77%;
+        padding: 2rem;
+    }
+
+    .sec5-content1 {
+        font-size: 2rem;
+        text-align: left;
+        width: 80%;
+        margin: 2rem 0 1rem;
+    }
+
+    .sec5-content2 {
+        /* aspect-ratio: 16 / 9; */
+        background-position: center;
+        background-size: cover;
+        border-radius: 1.5rem;
+        width: 100%;
+        margin: 0;
+    }
+
+    .m-b-30 {
+        margin-bottom: 1rem;
+    }
+    
+    .w-50{
+        width: 77%;
+    }
+    /*sec5 end*/
+    /*sec6*/
+    .sec6 {
+        padding: 10rem 0;
+    }
+
+    .sec6-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sec6-title {
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .sec6-c-title {
+        font-size: 2rem;
+    }
+
+    .sec6-title h2 {
+        font-size: 4rem;
+    }
+
+    .sec6-title .p-3 {
+        font-size: 2rem;
+    }
+
+    .sec6-img{
+        display: none;
+    }
+
+    .sec6-content-form {
+        width: 72%;
+        margin: 40px auto 0;
+    }
+
+    .sec6-content {
+        font-size: 1.8rem;
+    }
+
+    .sec6-content .sec6-c-st1 {
+        font-size: 2rem;
+    }
+
+    .input-group {
+        display: flex    ;
+        align-items: center;
+        margin-bottom: 2.5rem;
+        gap: 1rem;
+    }
+
+    .sec6-content button {
+        font-size: 2rem;
+        padding: 10px 15px;
+    }
+
+    .sec6-content .sec6-c-st2 {
+        margin-bottom: 4rem;
+        letter-spacing: -0.8px;
+    }
+
+    input::placeholder {
+        color: #747474;
+        font-size: 1.6rem;
+      }
+
+      .input-group input {
+        padding: 2.2rem 1.6rem;
+        font-size: 1.4rem;
+    }
+    /*sec6 end*/
+    /*footer*/
+    .footer {
+        margin: 5rem auto;
+    }
+
+    .footer-icon-form, .footer-icon-left {
+        margin: 0 auto;
+    }
+
+    .footer-icon-left img {
+        margin: 0;
+        width: 13%;
+    }
+
+    .footer-icon-right {
+        margin: 0 auto;
+        gap: 1rem;
+    }
+
+    .footer-info {
+        margin-left: 60px;
+    }
+
+    .navbar__icons {
+        padding-left: 10px;
+    }
+
+    .footer-icon-left .footer-links li a {
+        font-size: 1.2rem;
+    }
+
+    .footer-links li {
+        padding: 0 8px;
+    }
+
+    .navbar__icons li i {
+        font-size: 21px;
+    }
+
+    .navbar__icons {
+        list-style: none;
+        gap: 0 17px;
+    }
+
+    .footer-info-color02{
+        display: none;
+        justify-items: left;
+    }
+}
+
+@media(max-width:540px){
+    /*nav*/
+    .logo img {
+        width: 70%;
+    }
+
+    header {
+        height: 80px;
+        background: #fff;
+        padding: 0 4rem;
+    }
+
+    .nav-bar{
+        margin-top: -15px;
+    }
+
+    .nav-bar ul li a {
+        font-size: 20px;
+    }
+
+    /**nav end*/
+    /*sec1*/
+    .sec1 {
+        margin-bottom: 8rem;
+    }
+
+    .main-title{
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+
+    .main-title h2 {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+    
+    .main-title p{
+        display: none;
+    }
+
+    .container {
+        position: relative;
+        width: 100%;
+        height: auto;
+        z-index: 999;
+    }
+
+    .container::after {
+       display: none;
+    }
+
+    .cars {
+        position: relative;
+        left: 18%;
+        width: 72%;
+        top: 41%;
+    }
+
+    .btn-a {
+        font-size: 1.5rem;
+    }
+
+    .btn-b {
+        font-size: 1.5rem;
+    }
+    /*sec1 end*/
+    /*sec2*/
+    .sec2{
+        padding: 8rem 0;
+    }
+
+    .title-form .c-title {
+        font-size: 1.5rem;
+    }
+
+    .title-form h2 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .sec2-content-form {
+        gap: 1.5rem;
+        width: 74%;
+    }
+    
+    .card {
+        height: 200px;
+        padding: 1.5rem;
+        border: 1px solid #c9cfd6;
+        text-align: center;
+    }
+
+    .card h5 {
+        font-size: 1.5rem;
+    }
+
+    .card p {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .icon {
+        width: 4.8rem;
+        height: 4.8rem;
+        margin: 0 auto;
+    }
+    /*sec2 end*/
+    /*sec3*/
+    .sec3 {
+       margin: 8rem 0;
+    }
+
+    .sec3-content {
+        margin-bottom: 3rem;
+        width: 64%;
+    }
+    
+    .sec3-title .c-title {
+        font-size: 1.5rem;
+    }
+
+    .sec3-title h2 {
+        font-size: 3rem;
+    }
+
+    .content-box {
+        width: 100%;
+        padding: 2.4rem 2.7rem;
+    }
+
+   
+    .content-title h5 {
+        font-size: 1.5rem;
+        margin: 2rem 0;
+    }
+
+    .content-title img {
+        width: 30px;
+    }
+
+    .content-foot p {
+        font-size: 13px;
+    }
+
+    
+    .content-f-button h5 {
+        font-size: 1.5rem;
+    }
+
+    .content-f-button a {
+        font-size: 1.5rem;
+    }
+
+    .btn-form a {
+        font-size: 15px;
+        padding: 0.7rem 1.7rem;
+    }
+    /*sec3 end*/
+    /*sec4*/
+    .sec4 {
+        height: 100%;
+        padding: 80px 0;
+    }
+
+    .sec4-form {
+        gap: 0;
+    }
+
+    .sec4-title-form .c-green {
+        font-size: 1.5rem;
+        margin-top: 0;
+    }
+
+    .sec4-title-form h2 {
+        font-size: 3rem;
+    }
+
+    .sec4-title-form p {
+        font-size: 1.5rem;
+    }
+
+    .qna {
+        width: 92%;
+        padding: 2.5rem;
+        height: 254px;
+    }
+
+    .qna span {
+        font-size: 1.5rem;
+    }
+
+    .qna h5 {
+        font-size: 1.5rem;
+    }
+
+    .qna-content {
+        font-size: 1.2rem;
+    }
+   
+    .qna-form {
+        margin: 4rem;
+    }
+    /*sec4 end*/
+    /*sec5*/
+    .sec5-form {
+        margin-top: 0;
+        padding: 80px 0;
+    }
+
+    .sec5-form::after {
+        border-radius: 0 23rem 0 0;
+    }
+
+    .sec5-title>.c-title {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .sec5-title h2 {
+        font-size: 3rem;
+    }
+
+    .sec5-title p {
+        font-size: 1.5rem;
+    }
+
+    .sec5-content {
+        padding: 2rem 3rem; 
+    }
+
+    .sec5-content1 {
+        font-size: 1.5rem;
+        text-align: left;
+        width: 100%;
+        margin: 2rem 0 1rem;
+    }
+
+    .m-b-30 {
+        margin-bottom: 2rem;
+    }
+
+    .w-50 {
+        width: 90%;
+    }
+
+    .swiper-button-next, .swiper-button-prev{
+        display: none;
+    }
+    /*sec5 end*/
+    /*sec6*/
+    .sec6 {
+        padding: 8rem 0;
+    }
+
+    .sec6-c-title {
+        font-size: 1.5rem;
+    }
+
+    .sec6-title h2 {
+        font-size: 3rem;
+    }
+
+    .sec6-title .p-3 {
+        font-size: 1.5rem;
+    }
+
+    .sec6-content-form {
+        width: 75%;
+        margin: 20px auto 0;
+    }
+
+    .sec6-content {
+        font-size: 1.5rem;
+        padding: 3.5rem 2rem;
+    }
+
+    .sec6-content .sec6-c-st1 {
+        font-size: 1.5rem;
+    }
+
+    .sec6-content .sec6-c-st2 {
+        font-size: 1.3rem;
+        margin-bottom: 2.5rem;
+        letter-spacing: 0.3px;
+    }
+    
+    .input-group {
+        margin-bottom: 1.7rem;
+    }
+
+    .input-group input {
+        padding: 1rem 1rem;
+        font-size: 1.4rem;
+    }
+
+    input::placeholder {
+        color: #747474;
+        font-size: 1.3rem;
+      }
+
+    .sec6-content button {
+        margin: 15px auto;
+        font-size: 1.5rem;
+        padding: 8px 13px;
+    }
+    /*sec6 end*/
+    /*footer*/
+    .footer-icon-right {
+        display: none;
+    }
+
+    .footer-icon-left img {
+        margin: 0;
+        width: 17%;
+    }
+
+}
+
+
+@media(max-width:348px){
+    /*header*/
+    header {
+        height: 70px;
+         background: #fff;
+        padding: 0 2rem;
+        z-index: 999;
+    }
+
+    .nav-bar ul li a {
+        font-size: 16px;
+    }
+
+    .hamburger .line {
+        width: 24px;
+        height: 2px;
+        margin: 5px 0;
+    }
+    /*header end*/
+    /*sec1*/
+    .sec1 {
+        margin-bottom: 5rem;
+    }
+
+    .main-title {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .main-title h2 {
+        font-size: 2.5rem;
+        margin: 2.5rem 0 1rem;
+    }
+
+    .btn-a {
+        padding: 1rem 1.2rem;
+        background-color: #fff;
+        font-size: 1.3rem;
+        border: 1px solid #34c987;
+        color: #34c987;
+    }
+
+    .btn-b {
+        padding: 1rem 1.2rem;
+        background-color: #fff;
+        font-size: 1.3rem;
+        border: 1px solid #34c987;
+        color: #34c987;
+    }
+
+    .gap-36 {
+        gap: 0 2rem !important;
+    }
+    /*sec1 end*/
+    /*sec2*/
+    .sec2 {
+        padding: 5rem 0;
+    }
+
+    .title-form .c-title {
+        font-size: 1.3rem;
+        margin-top: 50px;
+    }
+
+    .title-form h2 {
+        font-size: 2.5rem;
+        margin-top: 1.3rem;
+    }
+
+    .sec2-subtitle {
+        font-size: 1.3rem;
+        margin-top: 1.3rem;
+    }
+
+    .sec2-content-form {
+        gap: 1rem;
+        width: 86%;
+        margin: 2rem auto;
+    }
+
+    .title-form {
+        margin: 0;
+    } 
+
+    br {
+        display: none;
+    }
+
+    .card1, .card3 {
+        margin-bottom: 1rem;
+    }
+
+    .card h5 {
+        font-size: 1.3rem;
+    }
+
+    .card p {
+        font-size: 1rem;
+    }
+
+    .icon {
+        width: 3.7rem;
+        height: 3.7rem;
+    }
+
+    .icon .card-icon {
+        border: 2.5px solid #fff;
+        width: 2.8rem;
+        height: 2.8rem;
+    }
+
+    .icon .card-icon i {
+        font-size: 21px;
+    }
+
+    .card {
+        height: 100%;
+        padding: 2.5rem 2rem;
+    }
+
+    /*sec2 end*/
+    /*sec3*/
+    .sec3 {
+        margin:50px 0;
+    }
+
+    .sec3-title .c-title {
+        font-size: 1.3rem;
+    }
+
+    .sec3-title h2 {
+        font-size: 2.5rem;
+        margin-top: 13px;
+    }
+
+    .sec3-content {
+        gap: 1.5rem;
+    }
+
+    .content-title {
+        padding: 0;
+    }
+
+    .content-box {
+        padding: 1.4rem 2.3rem;
+    }
+
+    .content-title h5 {
+        font-size: 1.3rem;
+        margin: 10px 0;
+    }
+
+    .content-title img {
+        width: 20px;
+    }
+
+    .content-img img {
+        width: 85%;
+        margin-bottom: 40px;
+        margin: 0 auto;
+    }
+
+    .content-foot p {
+        font-size: 10px;
+        padding: 0;
+    }
+
+    .content-f-button h5 {
+        font-size: 1.3rem;
+    }
+
+    .content-f-button {
+        padding: 0;
+    }
+
+    .content-f-button a {
+        font-size: 1.1rem;
+        padding: 0.3rem 1rem;
+    }
+    
+    .btn-form a {
+        font-size: 13px;
+        padding: 0.5rem 1.5rem;
+    }
+    /*sec3 end*/
+    /*sec4*/
+    .sec4 {
+        margin-top: 0;
+        padding: 50px 0;
+    }
+
+    .sec4-title-form .c-green {
+        font-size: 1.3rem;
+        margin-top: 0;
+        margin-bottom: 13px;
+    }
+
+    .sec4-title-form h2 {
+        font-size: 2.5rem;
+        margin-bottom: 13px;
+    }
+
+    .sec4-title-form p {
+        font-size: 1.3rem;
+    }
+
+    .qna {
+        width: 96%;
+        padding: 1.5rem;
+        height: 216px;
+    }
+
+    .qna span {
+        font-size: 1.3rem;
+    }
+
+    .qna h5 {
+        font-size: 1.3rem;
+    }
+
+    .qna-content {
+        font-size: 1rem;
+    }
+    /*sec4 end*/
+    /*sec5*/
+    .sec5-form {
+        padding: 50px 0;
+    }
+
+    .sec5-form::after {
+        border-radius: 0 16rem 0 0;
+    }
+
+    .sec5-title>.c-title {
+        font-size: 1.3rem;
+    }
+
+    .sec5-title h2 {
+        font-size: 2.5rem;
+        margin-top: 13px;
+    }
+
+    .sec5-title p {
+        font-size: 1.3rem;
+    }
+
+    .w-50 {
+        width: 100%;
+    }
+
+    .sec5-content {
+        width: 100%;
+    }   
+
+    .sec5-content1 {
+        font-size: 1.3rem;
+        text-align: left;
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .m-b-30 {
+        margin-bottom: 1rem;
+    }
+
+    .swiper-button-prev:after,
+    .swiper-button-next:after{
+        display: none;
+    }
+
+    /*sec5 end*/
+    /*sec6*/
+    .sec6 {
+        padding: 50px 0;
+    }
+
+
+    .sec6-c-title {
+        font-size: 1.3rem;
+    }
+
+    .sec6-title h2 {
+        font-size: 2.5rem;
+        margin-top: 13px;
+    }
+
+    .sec6-title .p-3 {
+        font-size: 1.3rem;
+        margin-top: 1.3rem;
+    }
+    
+    .sec6-content-form {
+        width: 80%;
+        margin: 15px auto 0;
+    }
+
+    .sec6-content .sec6-c-st1{
+        font-size: 1.3rem;  
+    }
+
+    .sec6-content .sec6-c-st2 {
+        font-size: 1.1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .sec6-content {
+        padding: 3rem;
+        font-size: 1.2rem;
+        letter-spacing: -0.5px;
+    }
+
+    .input-group {
+        flex-direction: column;
+        margin-bottom: 26px;
+    }
+
+    .input-group label {
+        width: 100%;
+    }
+
+    .input-group input {
+        padding: 0.8rem 1.2rem;
+        font-size: 1.3rem;
+    }
+
+    input::placeholder {
+        font-size: 1rem;
+      }
+
+    .sec6-content button {
+        margin: 15px auto;
+        font-size: 1.3rem;
+        padding: 6px 10px;
+    }
+
+    .input[type="checkbox"] {
+        width: 12px;
+        height: 12px;
+    }
+    /*sec6 end*/
+    /*footer*/
+    .footer {
+        padding-top: 0;
+    }
+
+    .footer-icon-left .footer-links {
+        list-style: none;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .footer-icon-left .footer-links li a {
+        font-size: 1rem;
+    }
+
+    .footer-icon-form, .footer-icon-left {
+        align-items: center;
+        margin: 0 auto;
+        width: 95%;
+    }
+
+    .footer-links li {
+        position: relative;
+        padding-right: 8px;
+        margin-right: 8px;
+    }
+
+    .footer-links li:not(:last-child)::after {
+        font-size: 1.6rem;
+    }
+
+    .footer-info p {
+        font-size: 1rem;
+        margin-top: 3px;
+    }
+
+    .footer-info {
+        margin-left: 8rem;
+    }
+
+    .footer-info-color02 span{
+        color: #b7b7b7;
+    }
+
+}
